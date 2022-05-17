@@ -36,7 +36,7 @@ jobs:
 
       # run a script
       - name: run a script
-        run: script.sh
+        run: bash script.sh
 
       # List current directory contents 
       - name: List current directory contents 
