@@ -38,6 +38,10 @@ jobs:
       - name: run a script
         run: bash script.sh
 
+      # run remove
+      - name: run remove
+        run: rm file2.txt
+
       # List current directory contents 
       - name: List current directory contents 
         run: ls -la
